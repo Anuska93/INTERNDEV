@@ -45,7 +45,7 @@ class Myframe extends JFrame implements ActionListener{
         setVisible(true);
        }
 
-     punlic void actionPerformed(ActionEvent e){
+     public void actionPerformed(ActionEvent e){
 
            System.out.println("Username :"+user.getText() );
            System.out.println("Password :"+pass.getText() );      
